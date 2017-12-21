@@ -81,7 +81,7 @@ I followed the steps taken on the [Facebook.github.io/react-native](https://face
    "react-native": "https://github.com/expo/react-native/archive/sdk-20.0.0.tar.gz"
    ```
 
-2. Modifying your app  
+2. now to install [genymotion](https://www.genymotion.com) Modifying your app  
 
    Now that you have successfully run the app, let's modify it.  
    Open App.js in your text editor of choice and edit some lines.  
