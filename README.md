@@ -46,11 +46,18 @@ I followed the steps taken on the [Facebook.github.io/react-native](https://face
     $ ```npm start```  
     
     This will start a development server for you, and print a QR code in your terminal.
+     > At the time I am writing this,  
+     create-react-native-app does not work  
+     with NPM 5. I downgraded to 4.X  
+     to make it work. 
     
 ### Running your React Native application
 
 1. Install the [Expo](https://expo.io/) client app on your iOS or Android phone and connect to the same wireless network as your computer.
    Using the Expo app, scan the QR code from your terminal to open your project.  
+     * I had to enable USB debugging on my phone
+     * Start a WiFi Hotspot on my phone
+     * open 3 ports in my laptop's firewall
 
 2. Modifying your app  
 
