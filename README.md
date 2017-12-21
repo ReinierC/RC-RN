@@ -3,7 +3,9 @@ React Native, first project.
 
 I'm running Linux Mint.18 64m Installation will differ on other systems.
 
-## Step 1: Install NodeJs
+## Step 1: Install NodeJs & NPM
+
+### Install NodeJs
 
 Run this in your terminal:
 
@@ -13,7 +15,7 @@ _Alternatively for Node.js v7 add the following repository._
 
 $``` sudo curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -```
 
-## Step 2: Install Latest Nodejs and NPM
+### Install Latest Nodejs and NPM
 
 $``` sudo apt-get install -y nodejs```
 
@@ -21,7 +23,7 @@ $``` sudo apt-get install -y nodejs```
 
 $```sudo apt-get install -y build-essential```
 
-## Step 3: Testing Latest Nodejs and NPM
+### Testing Latest Nodejs and NPM
 
 To have a simple test of nodejs and NPM, you can just check the versions installed on your system by using the following commands:
 
