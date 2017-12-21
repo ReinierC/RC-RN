@@ -68,9 +68,18 @@ I followed the steps taken on the [Facebook.github.io/react-native](https://face
 
    * On Linux, open with:  
   ```chmod a+x xde*.AppImage``` and ```./xde*.AppImage```  
-  When I first ran _./xde*.AppImage_  
-  XDE threw the following error:  
-  _Warning: Not using the Expo fork of react-native. See https://docs.expo.io/_
+  
+   When I first ran _./xde*.AppImage_  
+   XDE threw the following error:  
+   _Warning: Not using the Expo fork of react-native. See https://docs.expo.io/_
+  
+   This was solved changeing the ***package.json*** file:
+   ```
+   "dependencies": {
+   "expo": "^20.0.0",
+   "react": "16.0.0-alpha.12",
+   "react-native": "https://github.com/expo/react-native/archive/sdk-20.0.0.tar.gz"
+   ```
 
 2. Modifying your app  
 
