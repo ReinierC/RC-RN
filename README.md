@@ -41,7 +41,7 @@ I followed the steps taken on the [Facebook.github.io/react-native](https://face
 
  1. Assuming that you have Node installed, you can use npm to install the create-react-native-app command line utility:
  
-    $ ```npm install -g create-react-native-app```  
+    $ ```sudo npm install -g create-react-native-app```  
      
  2. Then run the following commands to create a new React Native project, in my case: "RCProject":
  
