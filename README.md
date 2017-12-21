@@ -21,10 +21,14 @@ $``` sudo apt-get install -y nodejs```
 
 $```sudo apt-get install -y build-essential```
 
-### Step 3: Testing Latest Nodejs and NPM
+## Step 3: Testing Latest Nodejs and NPM
 
 To have a simple test of nodejs and NPM, you can just check the versions installed on your system by using the following commands:
 
 $ ```nodejs --version```
 
 $ ```npm --version```
+
+That is it, Nodejs and NPM are now installed and ready for use on your system.
+
+I found this walkthrough at [tecmint.com](https://www.tecmint.com/install-nodejs-npm-in-centos-ubuntu/). They also describe the same procedure for RHEL, CentOS, Fedora, Debian and Ubuntu.
