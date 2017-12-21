@@ -73,7 +73,7 @@ I followed the steps taken on the [Facebook.github.io/react-native](https://face
    XDE threw the following error:  
    _Warning: Not using the Expo fork of react-native. See https://docs.expo.io/_
   
-   This was solved changeing the ***package.json*** file:
+   This was solved changing the ***package.json*** file:
    ```
    "dependencies": {
    "expo": "^20.0.0",
