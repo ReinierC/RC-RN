@@ -9,11 +9,7 @@ I'm running Linux Mint.18 64m Installation will differ on other systems.
 
 Run this in your terminal:
 
-$``` sudo curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -```
-
-_Alternatively for Node.js v7 add the following repository._
-
-$``` sudo curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -```
+$``` curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -```
 
 ### Install Latest Nodejs and NPM
 
